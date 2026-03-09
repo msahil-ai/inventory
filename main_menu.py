@@ -1,4 +1,6 @@
-from item_structure import add_item
+from add_item import add_item
+from search_item import search
+from view_inventory import load_data_table
 
 print("=======STOCKMASTER=======")
 print("1.Add New Item")
@@ -16,3 +18,7 @@ if choice == '1':
     add_item()
 elif choice == '2':
     print("Viewing all inventory...")
+    load_data_table()
+elif choice =='3':
+    print("Searching items....")
+    search()

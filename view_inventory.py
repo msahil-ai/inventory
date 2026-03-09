@@ -1,9 +1,12 @@
-def load_data_table(data):
+from ensure_storage import load_file
 
-    if "inventory.json" is None:
+def load_data_table():
+
+    if "inventory.jsonl" is None:
         print("Inventory is empty. Please add items first.")
         exit()
 
     else:
+        data=load_file()
         print(data)
 
