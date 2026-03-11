@@ -1,6 +1,7 @@
 from add_item import add_item
-from search_item import search
+from search_item import search_item
 from view_inventory import load_data_table
+
 
 print("=======STOCKMASTER=======")
 print("1.Add New Item")
@@ -21,4 +22,8 @@ elif choice == '2':
     load_data_table()
 elif choice =='3':
     print("Searching items....")
-    search()
+    search_item()
+
+elif choice =='6':
+    with open("summary.txt","r") as s:
+        print(s.read())

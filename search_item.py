@@ -1,27 +1,36 @@
 import requests
+import json
+from ensure_storage import load_file
 
-def search():
+def search_item():
 
-    ans=[]
+    
+    PATH="inventory.json"
 
+    
     search=int(input("Search by (1) Name or (2) ID?"))
     if search==1:
         name=input("Enter the name of the item you want to search for: ")
         name_result=[]
-        with open("inventory.jsonl", "r") as data:
-            for name in data:
-                name_result.append(name_result)
-            print(name_result)
+        data=load_file(PATH)
+        for i in data:
+            if name in i["Name"]:
+                name_result.append(i)
+        print(name_result)
+
     elif search==2:
         id=int(input("Enter the ID of the item you want to search for: "))
         id_result=[]
-        with open("inventory.jsonl", "r") as data:
-            for id in data:
-                id_result.append(id_result)
-            print(id_result)
+        data=load_file(PATH)
+        for s in data:
+            if id == s["ID"]:
+                id_result.append(s)
+                break
+        print(id_result)
+
     else:
         print("Invalid input. Please enter 1 or 2.")            
 
 
 if __name__=="__main__":
-    search()
+    search_item()

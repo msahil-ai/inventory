@@ -1,26 +1,43 @@
 import os.path
 import json
 
-path="inventory.jsonl"
+PATH="inventory.json"
 
-def ensure_file(): #create file
+def ensure_file(path:str): #create file
     if os.path.exists(path)==False:
-        f1=open("inventory.jsonl", "x")
-    else:
-        print("file already exists!")
+        with open(path, "x") as f1:
+            task={"task":[]}
+            json.dump(task, f1)
+    try:
+        with open(path,"r") as f: 
+            data=json.load(f)
+            
+    except json.JSONDecodeError:
+        with open(path, "w") as d:
+            task={"task":[]}
+            json.dump(task, d)
+        
 
-def load_file(): #inventory view
-    f1=open("inventory.jsonl", "r")
-    data=f1.read()
-    return data #this data will be sent to view_inventory
 
-def save_file(data):
-    f1=open("inventory.jsonl", "a")
-    f1.write(json.dumps(data))
-    f1.write(",")
-    f1.write("\n")
-    f1.close()
+def load_file(arg:str):
+    temp_list=[] #inventory view
+    with open(arg, "r") as f:
+        f1=json.load(f)
+    for i in f1.get("task"):
+        temp_list.append(i)
+    #print(temp_list)
+    return temp_list #this data will be sent to view_inventory
+
+def save_file(data:list, p:str):
+    with open("inventory.json", "w") as f:
+        #dict['task']=json.dump(data, f)
+        #f.update({"task": data})
+        r={"task":data}
+        json.dump(r, f)
+        #json.dump("\n", f)
+
 
 
 if __name__=="__main__":
-    ensure_file()
+    #load_file(path)
+    ensure_file(PATH)

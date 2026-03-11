@@ -1,0 +1,74 @@
+2026-03-10 10:26:27
+'ID': 16, 'Name': 'Lemon', 'Price': 10.0, 'Quantity': 1000.0, 'Category': 'fruits'
+2026-03-10 10:26:56
+'ID': 17, 'Name': 'Cherry', 'Price': 125.0, 'Quantity': 100.0, 'Category': 'fruits'
+DATE_TIME:  2026-03-10 10:29:21
+'ID': 18, 'Name': 'watch', 'Price': 200.0, 'Quantity': 5.0, 'Category': 'fastrack'
+DATE_TIME:  2026-03-10 10:32:53
+'ID': 19, 'Name': 'iyt', 'Price': 100.0, 'Quantity': 10.0, 'Category': 'iju'
+DATE_TIME:  2026-03-10 11:09:50
+'ID': 1.0, 'Name': 'banana', 'Price': 100.0, 'Quantity': 15.0, 'Category': 'fruits'
+DATE_TIME:  2026-03-10 11:17:29
+'ID': 1001.0, 'Name': 'Modak', 'Price': 500.0, 'Quantity': 200.0, 'Category': 'sweet'
+DATE_TIME:  2026-03-10 11:18:15
+'ID': 1001.0, 'Name': 'mango', 'Price': 120.0, 'Quantity': 100.0, 'Category': 'fruits'
+DATE_TIME:  2026-03-10 12:31:51
+'ID': 3, 'Name': 'item1', 'Price': 20.0, 'Quantity': 250.0, 'Category': 'ii'
+DATE_TIME:  2026-03-10 12:32:19
+'ID': 4, 'Name': 'item2', 'Price': 25.0, 'Quantity': 50.0, 'Category': 'ii'
+DATE_TIME:  2026-03-10 12:35:18
+'ID': 5, 'Name': 'item1', 'Price': 25.0, 'Quantity': 50.0, 'Category': 'ii'
+DATE_TIME:  2026-03-10 12:36:16
+'ID': 6, 'Name': 'item1', 'Price': 25.0, 'Quantity': 52.0, 'Category': 'ii'
+DATE_TIME:  2026-03-10 12:36:58
+'ID': 7, 'Name': 'item', 'Price': 22.0, 'Quantity': 32.0, 'Category': 'ii'
+DATE_TIME:  2026-03-10 15:07:46
+'ID': 8, 'Name': 'coffee', 'Price': 40.0, 'Quantity': 1000.0, 'Category': 'coff'
+DATE_TIME:  2026-03-10 15:39:37
+'ID': 9, 'Name': 'item', 'Price': 111.0, 'Quantity': 11.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 09:44:48
+'ID': 10, 'Name': 'po', 'Price': 100.0, 'Quantity': 12.0, 'Category': 'po'
+DATE_TIME:  2026-03-11 10:33:11
+'ID': 11, 'Name': 'hj', 'Price': 1.0, 'Quantity': 12.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 10:58:12
+'ID': 10002, 'Name': 'Police', 'Price': 100.0, 'Quantity': 1.0, 'Category': 'cheat'
+DATE_TIME:  2026-03-11 11:09:25
+'ID': 3, 'Name': 'doru', 'Price': 1000.0, 'Quantity': 12.0, 'Category': 'toy'
+DATE_TIME:  2026-03-11 11:15:13
+'ID': 3, 'Name': 'item', 'Price': 120.0, 'Quantity': 200.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 11:18:51
+'ID': 1003, 'Name': 'item3', 'Price': 200.0, 'Quantity': 25.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 11:29:50
+'ID': 10003, 'Name': 'item', 'Price': 100.0, 'Quantity': 12.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 12:06:11
+'ID': 10004, 'Name': 'p', 'Price': 1.0, 'Quantity': 113.0, 'Category': 'pp'
+DATE_TIME:  2026-03-11 12:07:23
+'ID': 10005, 'Name': 'q', 'Price': 100.0, 'Quantity': 15.0, 'Category': 'qq'
+DATE_TIME:  2026-03-11 12:08:10
+'ID': 10006, 'Name': 'choco', 'Price': 150.0, 'Quantity': 15.0, 'Category': 'ch'
+DATE_TIME:  2026-03-11 12:11:56
+'ID': 10007, 'Name': 'choco', 'Price': 100.0, 'Quantity': 23.0, 'Category': 'ch'
+DATE_TIME:  2026-03-11 12:27:44
+'ID': 10008, 'Name': 'one', 'Price': 1.0, 'Quantity': 1.0, 'Category': 'on'
+DATE_TIME:  2026-03-11 12:31:26
+'ID': 10009, 'Name': 'item', 'Price': 25.0, 'Quantity': 22.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 12:33:46
+'ID': 10010, 'Name': 'name', 'Price': 10.0, 'Quantity': 125.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 12:43:35
+'ID': 10011, 'Name': '123', 'Price': 12.0, 'Quantity': 123.0, 'Category': '12'
+DATE_TIME:  2026-03-11 12:52:09
+'ID': 10012, 'Name': '12', 'Price': 123.0, 'Quantity': 12.0, 'Category': '11'
+DATE_TIME:  2026-03-11 13:01:17
+'ID': 10013, 'Name': '121', 'Price': 120.0, 'Quantity': 1211.0, 'Category': '11'
+DATE_TIME:  2026-03-11 13:04:39
+'ID': 10014, 'Name': 'item', 'Price': 123.0, 'Quantity': 321.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 13:37:26
+'ID': 10015, 'Name': 'item3', 'Price': 33.0, 'Quantity': 333.0, 'Category': '3'
+DATE_TIME:  2026-03-11 13:45:57
+'ID': 10016, 'Name': 'i', 'Price': 2.0, 'Quantity': 2.0, 'Category': '22'
+DATE_TIME:  2026-03-11 14:11:03
+'ID': 10017, 'Name': 'item', 'Price': 123.0, 'Quantity': 21.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 14:15:03
+'ID': 10018, 'Name': 'item1', 'Price': 125.0, 'Quantity': 12.0, 'Category': 'ii'
+DATE_TIME:  2026-03-11 14:17:46
+'ID': 10019, 'Name': 'item1', 'Price': 122.0, 'Quantity': 22.0, 'Category': 'ii'

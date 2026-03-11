@@ -1,12 +1,18 @@
 from ensure_storage import load_file
 
+PATH="inventory.json"
+
+
 def load_data_table():
 
-    if "inventory.jsonl" is None:
+    data=load_file(PATH)
+
+    if data is None:
         print("Inventory is empty. Please add items first.")
         exit()
 
     else:
-        data=load_file()
+    
         print(data)
+        #print(00)
 
