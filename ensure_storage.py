@@ -1,8 +1,6 @@
 import os.path
 import json
 
-#PATH="inventory.json"
-
 def ensure_file(path:str): #create file
     if os.path.exists(path)==False:
         with open(path, "x") as f1:
@@ -40,4 +38,4 @@ def save_file(data:list, p:str):
 
 if __name__=="__main__":
     #load_file(path)
-    ensure_file(PATH)
+    ensure_file()

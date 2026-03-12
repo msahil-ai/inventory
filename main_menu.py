@@ -5,6 +5,7 @@ from summary import show_summary
 from delete_item import delete_item
 from update_stock import update_item
 PATH='inventory.json'
+THRESHOLD=5
 
 print("=======STOCKMASTER=======")
 print("1.Add New Item")
@@ -22,7 +23,7 @@ if choice == 1:
     add_item(PATH)
 elif choice == 2:
     print("Viewing all inventory...")
-    load_data_table(PATH)
+    load_data_table(PATH, THRESHOLD)
 elif choice == 3:
     print("Searching items....")
     search_item(PATH)

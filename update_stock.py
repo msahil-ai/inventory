@@ -3,9 +3,6 @@ from ensure_storage import save_file
 
 
 def update_item(arg:str):
-    
-    #PATH="inventory.json"
-
 
     id=int(input("Enter the ID of the item you want to update: "))
     

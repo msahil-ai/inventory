@@ -1,10 +1,6 @@
 from ensure_storage import load_file
 
-#PATH="inventory.json"
-threshold=5
-
-
-def load_data_table(arg:str):
+def load_data_table(arg:str,threshold):
 
     data=load_file(arg)
 

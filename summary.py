@@ -1,8 +1,4 @@
-import datetime
 from ensure_storage import load_file
-
-#PATH='inventory.json'
-#data=load_file(PATH)
 
 def show_summary(path:str):
     data=load_file(path)
