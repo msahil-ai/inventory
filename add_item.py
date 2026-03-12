@@ -1,19 +1,21 @@
 #add new item structure
 import json
 import os
-from ensure_storage import save_file, load_file
-from summary import summary
+from ensure_storage import ensure_file, save_file, load_file
+#from summary import summary
 import datetime
 
-def add_item():
+def add_item(arg:str):
 
-    if os.path.exists("count_value.txt"):
-        with open("count_value.txt", "r") as file:
+    ensure_file(arg)
+
+    if os.path.exists("id_value.txt"):
+        with open("id_value.txt", "r") as file:
             id = int(file.read())
     else:
-        id=10000
+        id=1000
         
-    PATH='inventory.json'
+    PATH=arg
     item_list=[]
     count=1
 
@@ -45,7 +47,7 @@ def add_item():
             data.append(item_data)
             #data.update(item_list)
             save_file(data, PATH) #
-            summary(item_data)
+            #summary(item_data)
             continue
         elif con == 'n' or con.lower()=='n':
             data=load_file(PATH)#.get('task')
@@ -53,7 +55,7 @@ def add_item():
             data.append(item_data)
             #data.update({"task":item_list})
             save_file(data, PATH) #
-            summary(item_data)
+            #summary(item_data)
             break
         else:
             print("Invalid input! Try again.")

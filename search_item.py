@@ -2,17 +2,17 @@ import requests
 import json
 from ensure_storage import load_file
 
-def search_item():
+def search_item(arg:str):
 
     
-    PATH="inventory.json"
+    #PATH="inventory.json"
 
     
     search=int(input("Search by (1) Name or (2) ID?"))
     if search==1:
         name=input("Enter the name of the item you want to search for: ")
         name_result=[]
-        data=load_file(PATH)
+        data=load_file(arg)
         for i in data:
             if name in i["Name"]:
                 name_result.append(i)
@@ -21,7 +21,7 @@ def search_item():
     elif search==2:
         id=int(input("Enter the ID of the item you want to search for: "))
         id_result=[]
-        data=load_file(PATH)
+        data=load_file(arg)
         for s in data:
             if id == s["ID"]:
                 id_result.append(s)

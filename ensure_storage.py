@@ -1,7 +1,7 @@
 import os.path
 import json
 
-PATH="inventory.json"
+#PATH="inventory.json"
 
 def ensure_file(path:str): #create file
     if os.path.exists(path)==False:
